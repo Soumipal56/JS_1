@@ -1,4 +1,4 @@
-// alert("Hello World!");
+alert("Hello World!");
 
 console.log("Hello World!");
 
@@ -44,7 +44,7 @@ console.log("What's up!")
 
 console.log(undefined+1);
 
-let abj1 = { 
+let obj1 =  { 
                 name: "Soumi" 
             }; 
 let obj2 = obj1; 
