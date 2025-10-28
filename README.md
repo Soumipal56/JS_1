@@ -12,7 +12,8 @@
 # Linking JavaScript Files
 ##### Create an HTML file and link JS file like this:
 ##### In script.js,write: console.log("Connected!)
-##### Move the script tag to the section and see what happens. #### Answer: The code runs normally.
+##### Move the script tag to the section and see what happens. 
+#### Answer: The code runs normally.
 ##### Try using defer:
       <script defer src="script1.js></script>
       <script defer src="script2.js></script> 
@@ -21,7 +22,8 @@
 # Running JS in Browser Console
 ##### Open console and type: 2 + 2 #### Answer: 4
 ##### Type: alert("Hi) #### Shows a popup message box with a message.
-##### Try: prompt("Your name?") #### Opens a dialogue box showing name? where you can enter your name and it will return it.
+##### Try: prompt("Your name?") 
+#### Opens a dialogue box showing name? where you can enter your name and it will return it.
 ##### Type: let city = "Durgapur"; city
 
 # Variables and Keywords (var, let, const)
@@ -29,7 +31,8 @@
 ##### Try reassigning them: a = "Updated"; b = "Updated"; c = "Updated" 
 ##### Create a variable inside curly braces using let and log it outside.
 ##### Predict output before running.
-##### Write 3 examples where const is useful (like PI, baseURL, etc.) #### Answer: Name, Gender, birth year, gender etc.
+##### Write 3 examples where const is useful (like PI, baseURL, etc.) 
+#### Answer: Name, Gender, birth year, gender etc.
 
 # Logging and Interaction (console, alert, prompt)
 ##### Log name, age and city using console.log, console.info, console.warn
@@ -41,7 +44,8 @@
 # Working with Strings
 ##### let msg = "I love Github";
 ##### Try msg.slice(2, 6) and predict the result.
-##### Try msg.split("") and count words. #### Answer: 13
+##### Try msg.split("") and count words. 
+#### Answer: 13
 ##### Try msg.replace("love", "work at")
 ##### Template string example: 
       let name = "Soumi"; 
@@ -49,9 +53,12 @@
 ##### Check if msg.includes("love")      
 
 # Statements and Semicolons
-##### Remove semicolon and check if code still runs. #### Answer: It still runs.
-##### Combine two statements in one line and see if it breaks. #### Answer: Error.
-##### Write 3 console.log statements without semicolons and predict output. #### Answer: It will run successfully.
+##### Remove semicolon and check if code still runs. 
+#### Answer: It still runs.
+##### Combine two statements in one line and see if it breaks. 
+#### Answer: Error.
+##### Write 3 console.log statements without semicolons and predict output. 
+#### Answer: It will run successfully.
 
 # Comments
 ##### Write your name as a single-line comment.
@@ -70,16 +77,19 @@
       5 + 10 = 15
 ##### Type let x = 10; (statement).
       let x = 10;
-##### Which one gives a value immediately? #### Answer: First one.
+##### Which one gives a value immediately? 
+#### Answer: First one.
 ##### Try: let y = (5 + 10) * 2; console.log(y)
       let y = (5 + 10) * 2;
       console.log(y);
 #### Answer: 30
-##### Write one line explaining the difference between both. #### Answer: statement doesn't return a value while expression returns a value.
+##### Write one line explaining the difference between both. 
+#### Answer: statement doesn't return a value while expression returns a value.
 
 # Data Types
 ##### let age = 25; let name = "Soumi"; let isStudent = true; let skills = ["JS", "HTML"]; let user = { city: "Durgapur" }; let x = null; let y; let z = Symbol("id")
-##### Log typeof each variable. #### Answer: number, string, boolean, array, object, null, undefined, symbol
+##### Log typeof each variable. 
+#### Answer: number, string, boolean, array, object, null, undefined, symbol
 ##### Change one value and recheck typeof.
       let x = 120.0 
 #### Answer: number     
@@ -98,7 +108,8 @@
       NaN
       NaN
       NaN
-##### Write one line explaining when to use null vs undefined. #### Answer: Use null when you don't want to give value null and undefined is assigned by default.
+##### Write one line explaining when to use null vs undefined. 
+#### Answer: Use null when you don't want to give value null and undefined is assigned by default.
 
 # Primitive vs Reference
 ##### 
@@ -113,7 +124,8 @@
      let obj2 = obj1; 
      obj2.name = "Pal"; 
      console.log(obj1.name);
-##### Observe which one changes together. #### Answer: x=5, y=10 -> Real value was copied.
+##### Observe which one changes together. 
+#### Answer: x=5, y=10 -> Real value was copied.
 #### Answer: Pal -> Parent reference was copied.
 ##### Draw memory boxes on paper to visualize difference.
       
