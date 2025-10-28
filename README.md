@@ -4,8 +4,10 @@
       In Dribbble: Dribbble - Discover the World’s Top Designers & Creative Professionals 
 ##### Try: alert("Hello World!") 
        A dialogue box will open with message written "Hello World!"
-##### Write one line in your own words: "If HTML is skeleton, CSS is clothes - what is JS?" #### Answer: JS is the brain i.e. because of these our webpage becomes interactive, animations etc.
-##### Write one example of where you've seen JS being used (like popup, animation, etc.) #### Answer: mouse movements, form submissions etc.
+##### Write one line in your own words: "If HTML is skeleton, CSS is clothes - what is JS?" 
+#### Answer: JS is the brain i.e. because of these our webpage becomes interactive, animations etc.
+##### Write one example of where you've seen JS being used (like popup, animation, etc.) 
+#### Answer: mouse movements, form submissions etc.
 
 # Linking JavaScript Files
 ##### Create an HTML file and link JS file like this:
