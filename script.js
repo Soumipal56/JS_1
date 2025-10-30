@@ -1,4 +1,4 @@
-alert("Hello World!");
+// alert("Hello World!");
 
 console.log("Hello World!");
 
@@ -31,7 +31,7 @@ console.warn("City : " + "Duragpur");
 // alert("Welcome, " + name + "!");
 
 let a = 12;
-console.log(typeof (a));
+console.log(typeof a);
 
 // let age = prompt("Enter age:"); console.log(age + 5);
 
